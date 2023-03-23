@@ -13,7 +13,7 @@ return require('packer').startup(function(use)
 	}
 	use 'mofiqul/vscode.nvim'
 	use({ 'rose-pine/neovim', as = 'rose-pine', config = function()
-		vim.cmd('colorscheme rose pine')
+		vim.cmd('colorscheme rose-pine')
 	end
 })
 end)
